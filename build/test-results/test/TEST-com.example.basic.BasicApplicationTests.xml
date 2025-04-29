@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.basic.BasicApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-29T00:46:40.238Z" hostname="BOOK-JINBO" time="0.739">
+<testsuite name="com.example.basic.BasicApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-29T01:32:54.130Z" hostname="BOOK-JINBO" time="0.571">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.basic.BasicApplicationTests" time="0.739"/>
-  <system-out><![CDATA[09:46:33.459 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.basic.BasicApplicationTests]: BasicApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-09:46:33.638 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.basic.BasicApplication for test class com.example.basic.BasicApplicationTests
+  <testcase name="contextLoads()" classname="com.example.basic.BasicApplicationTests" time="0.571"/>
+  <system-out><![CDATA[10:32:41.030 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.basic.BasicApplicationTests]: BasicApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:32:41.217 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.basic.BasicApplication for test class com.example.basic.BasicApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,30 +14,30 @@
 
  :: Spring Boot ::                (v3.4.4)
 
-2025-04-29T09:46:34.310+09:00  INFO 22332 --- [    Test worker] c.example.basic.BasicApplicationTests    : Starting BasicApplicationTests using Java 17.0.14 with PID 22332 (started by PC in C:\구글 드라이브\@AiMaster\web\deploy\server)
-2025-04-29T09:46:34.311+09:00  INFO 22332 --- [    Test worker] c.example.basic.BasicApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2025-04-29T09:46:35.566+09:00  INFO 22332 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-04-29T09:46:35.658+09:00  INFO 22332 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
-2025-04-29T09:46:36.254+09:00  INFO 22332 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-04-29T09:46:36.374+09:00  INFO 22332 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
-2025-04-29T09:46:36.441+09:00  INFO 22332 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-04-29T09:46:36.919+09:00  INFO 22332 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-04-29T09:46:36.976+09:00  INFO 22332 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-04-29T09:46:37.373+09:00  INFO 22332 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28bc9749
-2025-04-29T09:46:37.383+09:00  INFO 22332 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-04-29T09:46:37.491+09:00  INFO 22332 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-04-29T10:32:41.943+09:00  INFO 3244 --- [    Test worker] c.example.basic.BasicApplicationTests    : Starting BasicApplicationTests using Java 17.0.14 with PID 3244 (started by PC in C:\구글 드라이브\@AiMaster\web\deploy\server)
+2025-04-29T10:32:41.945+09:00  INFO 3244 --- [    Test worker] c.example.basic.BasicApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-04-29T10:32:43.227+09:00  INFO 3244 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-29T10:32:43.306+09:00  INFO 3244 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interface.
+2025-04-29T10:32:44.072+09:00  INFO 3244 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-29T10:32:44.174+09:00  INFO 3244 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-29T10:32:44.224+09:00  INFO 3244 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-04-29T10:32:44.705+09:00  INFO 3244 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-29T10:32:44.756+09:00  INFO 3244 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-04-29T10:32:48.849+09:00  INFO 3244 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13f2d42c
+2025-04-29T10:32:48.855+09:00  INFO 3244 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-04-29T10:32:49.556+09:00  INFO 3244 --- [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
-	Database version: 8.0.42
+	Database version: 9.3
 	Autocommit mode: undefined/unknown
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-04-29T09:46:38.743+09:00  INFO 22332 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-04-29T09:46:38.840+09:00  INFO 22332 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-04-29T09:46:39.487+09:00  WARN 22332 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-04-29T09:46:39.972+09:00  WARN 22332 --- [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2025-04-29T09:46:40.208+09:00  INFO 22332 --- [    Test worker] c.example.basic.BasicApplicationTests    : Started BasicApplicationTests in 6.32 seconds (process running for 8.006)
+2025-04-29T10:32:50.536+09:00  INFO 3244 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-29T10:32:52.261+09:00  INFO 3244 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-29T10:32:53.029+09:00  WARN 3244 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-29T10:32:53.759+09:00  WARN 3244 --- [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-04-29T10:32:54.077+09:00  INFO 3244 --- [    Test worker] c.example.basic.BasicApplicationTests    : Started BasicApplicationTests in 12.615 seconds (process running for 14.303)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
